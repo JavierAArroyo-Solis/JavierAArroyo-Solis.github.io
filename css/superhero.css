@@ -11,8 +11,21 @@ img {
     border: 1px solid black;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
+  }
+  ul {
+    white-space: nowrap;
     text-align: left;
   }
+  #spiderman_alias {
+    padding-left: 15px;
+  }
+  #spiderman_powers {
+    padding-left: 60px;
+  }
   #headerrow {
-    background-color: gainsboro;
+    background-color: goldenrod;
+  }
+  th.names {
+    background-color: lightyellow;
   }
