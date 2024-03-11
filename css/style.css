@@ -1,4 +1,19 @@
+:root {
+    --uncblue: RGB(1, 45, 91);
+    --uncgold: RGB(254, 189, 54);
+    --uncgray: RGB(235, 235, 235);
+
+    background-color: var(--uncgray);
+}
+
+h1 {
+    text-align: center;
+    color: var(--uncblue);
+}
+
 table{
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid black;
     border-collapse: collapse;
 }
@@ -15,6 +30,11 @@ td, th {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+a {
+    color: var(--uncblue);
+}
+
 a:hover {
-    color: orange;
+    color: var(--uncgold);
 }

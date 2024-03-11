@@ -1,3 +1,68 @@
-body {
-    background-color: lightgray;
+:root {
+    --uncblue: RGB(1, 45, 91);
+    --uncgold: RGB(254, 189, 54);
+    --uncgray: RGB(235, 235, 235);
+
+    background-color: var(--uncgray);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--uncblue);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index {
+    width: 300px;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 3px double;
+    color: var(--uncblue);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 750px;
+}
+
+a {
+    color: var(--uncblue);
+}
+
+a:hover {
+    color: var(--uncgold);
+}
+
+nav {
+    text-align: center;
+    margin-top: auto;
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#navhome {
+    text-align: center;
+    margin-top: auto;
+}
+
+#navhome a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: larger;
 }
