@@ -1,17 +1,18 @@
 :root {
-    --uncblue: RGB(1, 45, 91);
-    --uncgold: RGB(254, 189, 54);
-    --uncgray: RGB(235, 235, 235);
+    --header: RGB(4, 40, 56);
+    --footer: RGB(10, 80, 113);
+    --link: RGB(254, 189, 54);
+    --background: RGB(235, 235, 235);
 
-    background-color: var(--uncgray);
+    background-color: var(--background);
 }
 
 h1, h2, h3 {
-    text-align: center;
-    color: var(--uncblue);
+    text-align: center; 
+    color: var(--header);
 }
 
-img {
+img { 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -23,12 +24,13 @@ img {
 
 p {
     text-align: center;
+    color: var(--footer);
 }
 
 hr {
     border: none;
     border-top: 3px double;
-    color: var(--uncblue);
+    color: var(--header);
     overflow: visible;
     text-align: center;
     height: 5px;
@@ -36,11 +38,11 @@ hr {
 }
 
 a {
-    color: var(--uncblue);
+    color: var(--footer);
 }
 
 a:hover {
-    color: var(--uncgold);
+    color: var(--link);
 }
 
 nav {
